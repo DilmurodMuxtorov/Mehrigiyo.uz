@@ -1,0 +1,126 @@
+.products__hero {
+  background-color: #FAFBFC;
+  position: relative;
+  z-index: 1;
+}
+
+.leaf-box {
+  position: absolute;
+  top: 50px;
+  z-index: -1;
+}
+
+.p-hero {
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 58px;
+  }
+
+  &__form {
+    background: rgba(236, 238, 242, 0.4);
+    border-radius: 100px;
+    display: flex;
+    padding: 9px 19px;
+
+    img {
+      cursor: pointer;
+      margin-right: 12px;
+    }
+
+  }
+
+  &__input {
+    outline: none;
+    background-color: transparent;
+  }
+
+  &__title {
+    margin-top: 13px;
+    margin-bottom: 24px;
+  }
+
+  &__link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    .p-hero__span {
+      color: #53B175;
+    }
+  }
+
+  &__select {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 60px rgba(22, 22, 22, 0.1);
+    border-radius: 15px;
+    padding: 20px 20px 26px 20px;
+    width: 280px;
+    user-select: none;
+
+    &-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-title {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+    }
+
+    &-form {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+    }
+
+    &-label {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+
+      input {
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+.reset__btn-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #B0B7C3;
+    padding-left: 6px;
+  }
+}
+
+.view-more-box {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  color: #53B175;
+  margin-top: 20px;
+  cursor: pointer;
+
+  img {
+    margin-right: 8.57px;
+  }
+}

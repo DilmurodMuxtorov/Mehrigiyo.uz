@@ -1,0 +1,85 @@
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.backgraund {
+    background-image: url(../../../../assets/images/photos/backgraund.png);
+    background-repeat: repeat-x;
+    height: 847px;
+}
+.Home {
+    &_title {
+        font-family: Regular;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        &_text {
+            margin-left: 710px;
+            margin-top: -26px;
+            color: #419e56;
+        }
+    }
+    &__title {
+        padding-top: 100px;
+        font-family: Bold;
+        font-size: 44px;
+        line-height: 66px;
+        text-align: center;
+        color: #000000;
+    }
+    &__user {
+        margin-top: 178px;
+        margin-left: 250px;
+        display: flex;
+    }
+    &_person {
+        margin-top: -350px;
+        margin-left: 100px;
+    }
+    &_ava {
+        margin-left: 960px;
+        margin-top: -130px;
+    }
+    &_boy {
+        margin-left: 980px;
+        margin-top: -480px;
+    }
+    &_tell {
+        margin-left: 1280px;
+        margin-top: 110px;
+    }
+    &_sms {
+        margin-left: 1270px;
+        margin-top: -30px;
+    }
+    &_hr {
+        margin-top: 280px;
+        margin-bottom: 40px;
+    }
+    &_text {
+        font-family: normal;
+        font-size: 18px;
+        line-height: 27px;
+        color: #1D1D1F;
+    }
+    &___text {
+        font-family: Regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: #1D1D1F;
+        opacity: 0.75;
+    }
+    &___hr {
+        margin-top: 40px;
+    }
+    &_bottom_text {
+        font-family: semiBold;
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 100px;
+        margin-left: -50px;
+    }
+}

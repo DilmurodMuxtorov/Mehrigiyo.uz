@@ -1,0 +1,110 @@
+.backgraund_slider {
+    background-image: url(../../../../assets/images/icons/barg.svg);
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 60px;
+    margin-top: 600px;
+
+
+}
+
+.Home_photo {
+    &_back {
+        background-image: url(../../../../assets/images/photos/backgraund-1.png);
+        margin-top: 181px;
+        margin-left: -120px;
+        border-radius: 30px;
+        margin-bottom: 170px;
+        width: 1256px;
+        height: 300px;
+    }
+
+    &_text {
+        font-family: semiBold;
+        color: #FFFFFF;
+        font-size: 28px;
+
+
+    }
+}
+
+.Home_slider {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 100px;
+    margin-top: 600px;
+    gap: 100px;
+
+    &_btn {
+        background: #53B175;
+        outline: none;
+        color: white;
+        padding: 5px 15px 10px 15px;
+        font-size: 30px;
+        border-radius: 17px
+    }
+
+    &__btn {
+        font-family: Regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: #BDBDBD;
+        border: none;
+    }
+
+    &___btn {
+        font-family: Regular;
+        font-size: 16px;
+        line-height: 24px;
+        color: #181725;
+        padding: 13px 26px;
+        background: rgba(83, 177, 117, 0.1);
+        border-radius: 30px;
+        border: none;
+
+    }
+
+    &_card {
+        max-width: 260px;
+        border: 1px solid #E2E2E2;
+        border-radius: 18px;
+        height: 360px;
+        border-radius: 18px;
+
+        .heart {
+            position: relative;
+            left: 210px;
+            top: -180px;
+        }
+    }
+
+    &_text {
+        font-family: normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 20px;
+        margin-top: -30px;
+        align-items: center;
+        letter-spacing: 0.1px;
+        color: #181725;
+
+        &__bottom {
+            font-family: Regular;
+            font-size: 14px;
+            line-height: 18px;
+            color: #7C7C7C;
+            margin-left: 20px;
+        }
+
+        &_num {
+            font-family: Bold;
+            font-size: 24px;
+            line-height: 36px;
+            color: #53B175;
+            margin-left: 20px;
+
+        }
+    }
+
+}
