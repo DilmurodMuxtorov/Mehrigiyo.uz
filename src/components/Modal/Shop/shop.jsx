@@ -1,20 +1,22 @@
-import React from "react";
+import React from 'react'
 import { NavLink } from "react-router-dom";
-import "./header.scss";
-import UZB from "../../assets/images/icons/UZB.svg";
-import USER from "../../assets/images/icons/USER.svg";
-import LOKETION from "../../assets/images/icons/LOKETION.svg";
-import line from "../../assets/images/icons/line.svg";
-import LOGO from "../../assets/images/icons/LOGO.svg";
-import heart from "../../assets/images/icons/heart.svg";
-import korzinka from "../../assets/images/icons/korzinka.svg";
-
+import './shop.scss'
+import UZB from '../../../assets/images/icons/UZB.svg'
+import USER from "../../../assets/images/icons/USER.svg";
+import LOKETION from "../../../assets/images/icons/LOKETION.svg";
+import line from "../../../assets/images/icons/line.svg";
+import LOGO from "../../../assets/images/icons/LOGO.svg";
+import heart from "../../../assets/images/icons/yurak_1.svg";
+import korzinka from "../../../assets/images/icons/korzinka.svg";
+import back_1 from '../../../assets/images/photos/back_2.png'
+import tells from '../../../assets/images/icons/tells.svg'
+import Footer from '../../../pages/Home/_components/footer/footer'
 function ProductsHeader() {
   return (
     <>
       <section className="probackgroung header">
         <div className="container">
-          <div className="header-wrapper">
+          <div className="header-wrapper">  
             <nav className="header_nav">
               <ul className="header__ul flex">
                 <li>
@@ -88,8 +90,18 @@ function ProductsHeader() {
           </div>
         </div>
       </section>
+      <div className='back_1 flex'>
+                <div>
+                    <h4 className='back_1_text flex mt-20'>Bosh sahifa  /  <p>Savatcha</p> </h4>
+                    <p className='back_1_text_title mt-3'>Savatcha</p>
+                </div>
+                <div className='ml-7'>
+                    <img src={back_1} alt="" />
+                    <img className='ml-96 back_1_icon' src={tells} alt="" />
+                </div>
+            </div>
+            <Footer/>
     </>
   );
 }
-
-export default ProductsHeader;
+export default ProductsHeader

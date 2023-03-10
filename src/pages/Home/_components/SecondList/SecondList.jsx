@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import React, { Component } from "react";
 import Slider from "react-slick";
 import "./SecondList.scss";
@@ -175,10 +176,12 @@ export default class PauseOnHover extends Component {
           </Slider>
 
           <div>
+            <NavLink to={"/products"} >
             <button className="Home_slider___btn flex mx-20 mt-16 gap-x-6">
               Barcha mahsulotlarni ko’rish{" "}
               <img className=" mt-2" src={way2} alt="" />
             </button>
+            </NavLink>
             <div className="Home_photo_back mr-8">
               <div className="flex ml-20">
                 <p className="Home_photo_text mt-36 ml-3">

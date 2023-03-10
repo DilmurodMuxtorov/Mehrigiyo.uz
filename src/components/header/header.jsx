@@ -13,7 +13,7 @@ function Homeheader() {
   return (
     <header>
       <section className="backragund">
-        <section className="header">
+        <section className="header ">
           <div className="container">
             <div className="header-wrapper">
               <nav className="header_nav">
@@ -52,7 +52,7 @@ function Homeheader() {
                 <img src={line} alt="" />
                 <li className="flex gap-1">
                   <NavLink to={"/Login"}>
-                  <p className="header__title">Kirish</p>
+                    <p className="header__title">Kirish</p>
                   </NavLink>
                   <img src={USER} alt="" />
                 </li>
@@ -76,12 +76,16 @@ function Homeheader() {
               </li>
             </ul>
             <div className="header_home_btn">
-              <button>
-                <img src={heart} alt="" />
-              </button>
-              <button>
-                <img src={korzinka} alt="" />
-              </button>
+              <NavLink to={"/shop"}>
+                <button>
+                  <img src={heart} alt="" />
+                </button>
+              </NavLink>
+              <NavLink to={"/shoping"}>
+                <button>
+                  <img src={korzinka} alt="" />
+                </button>
+              </NavLink>
             </div>
           </div>
         </div>
